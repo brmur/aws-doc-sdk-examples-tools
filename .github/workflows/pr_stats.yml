@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           organization: 'brmur'
-          repositories: aws-doc-sdk-examples-tools
+          repositories: 'aws-doc-sdk-examples-tools'
           period: 180
           charts: true
           disableLinks: true
