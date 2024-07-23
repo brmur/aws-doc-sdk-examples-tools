@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           organization: 'awsdocs'
-          repositories: 'aws-doc-sdk-examples-tools'
+          repositories: 'awsdocs/aws-doc-sdk-examples-tools'
           period: 180
           charts: true
           disableLinks: true
