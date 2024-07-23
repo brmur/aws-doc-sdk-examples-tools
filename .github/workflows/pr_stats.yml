@@ -11,7 +11,7 @@ jobs:
         uses: flowwer-dev/pull-request-stats@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          organization: 'brmur'
+          organization: 'awsdocs'
           repositories: 'aws-doc-sdk-examples-tools'
           period: 180
           charts: true
