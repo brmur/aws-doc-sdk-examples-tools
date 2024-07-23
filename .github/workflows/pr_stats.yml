@@ -11,7 +11,8 @@ jobs:
         uses: flowwer-dev/pull-request-stats@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          organization: 'piedpiper'
+          organization: 'brmur'
+          repositories: aws-doc-sdk-examples-tools
           period: 180
           charts: true
           disableLinks: true
